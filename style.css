@@ -1,0 +1,106 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body {
+  background: linear-gradient(45deg, rgb(179, 15, 15), rgb(103, 25, 25));
+  color: rgb(0, 0, 0);
+  font-family: arial, monospace;
+  line-height: 1.5;
+  font-size: 20px;
+  background-size: cover;
+  height: 100%;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  transition: box-shadow 2s;
+}
+
+img:hover {
+  box-shadow: -30px -30px 0px blueviolet;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+a {
+  color: rgba(2, 17, 42, 0.993);
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.icone {
+  font-size: 200%;
+  transition: all 2s ease-in-out;
+}
+
+.container {
+  width: 90%;
+  margin: 80px auto;
+}
+
+.card {
+  background-color: rgb(179, 39, 0);
+  padding: 50px;
+  box-shadow: 15px 25px 10px rgb(27, 14, 14);
+  border-radius: 6px;
+  margin: 60px;
+  text-align: center;
+  transition: background-color 1s, box-shadow 1.5s ease-in-out;
+}
+
+.card:hover {
+  background-color: rgba(223, 113, 3, 0.944);
+  box-shadow: 20px 15px 0px black;
+}
+
+#linkedin {
+  background-color: rgb(215, 156, 156);
+  padding: 12px;
+  border: 3px solid rgb(0, 0, 0) ;
+  border-radius: 13px;
+  box-shadow: 15px 15px 10px rgb(0, 0, 0);
+  transition: box-shadow 2s;
+}
+
+#linkedin:hover {
+  box-shadow: -30px 20px 0px rgb(73, 16, 3);
+}
